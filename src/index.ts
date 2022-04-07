@@ -3,7 +3,8 @@ config();
 import App from "./shared/app";
 import { PORT } from "./shared/config";
 import DatabaseConnection from "./shared/moongoDatabase";
-import alumnosRoutes from './universidad/infraestructure/alumnos/alumnos.routes'
+import alumnosRoutes from './universidad/infraestructure/alumnos/alumnos.routes'ç
+import "reflect-metadata"
 async function init() {
     // EXTRAS
 

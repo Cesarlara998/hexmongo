@@ -1,4 +1,4 @@
-export default class Integer {
+export default class Boolean {
     public value: string
     constructor(value) {
         this.value = value;

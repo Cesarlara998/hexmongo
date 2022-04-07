@@ -1,3 +1,8 @@
 const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI
-export { PORT,MONGODB_URI }
+const DB_HOST = process.env.DB_HOST
+const DB_PORT  = parseInt(process.env.DB_PORT)
+const DB_USER = process.env.DB_USER
+const DB_PASSWORD = process.env.DB_PASSWORD
+const DB_DATABASE= process.env.DB_DATABASE
+export { PORT,MONGODB_URI,DB_HOST,DB_PORT,DB_USER,DB_PASSWORD,DB_DATABASE }
